@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "next lint",
     "gen": "graphql-codegen --config ./graphql/codegen-client.yml"
   },
@@ -32,26 +31,11 @@
     "@graphql-codegen/typescript": "^4.0.6",
     "@graphql-codegen/typescript-graphql-request": "^6.2.0",
     "@graphql-codegen/typescript-urql": "^4.0.0",
-=======
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.1"
-  },
-  "devDependencies": {
-    "typescript": "^5",
->>>>>>> 30e85c345dc301052442a9b4e75b4990a2a1da14
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-<<<<<<< HEAD
     "eslint-config-next": "14.2.1",
     "typescript": "^5"
-=======
-    "eslint-config-next": "14.2.1"
->>>>>>> 30e85c345dc301052442a9b4e75b4990a2a1da14
   }
 }
