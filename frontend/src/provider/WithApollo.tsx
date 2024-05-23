@@ -2,8 +2,8 @@
 import { createClient, cacheExchange, fetchExchange, Provider } from "urql";
 
 const client = createClient({
-  url: "api/graphql", // your GraphQL endpoin
-  suspense: true,
+  // endpoint
+  url: "http://localhost:3000/api/graphql",
   fetchOptions: {
     credentials: "include", // クッキーを使用する場合
   },
