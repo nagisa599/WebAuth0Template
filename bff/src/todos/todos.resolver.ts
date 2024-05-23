@@ -12,7 +12,6 @@ export class TodosResolvers {
 
   @Query(() => [Todo])
   @UseGuards(AuthGuard) // JWT戦略を使用するよう指定
-  // @UseGuards(AuthGuard('jwt'))
   async getTodos(@GetUser() user: any): Promise<Todo[]> {
     console.log('getTodos');
     console.log(user);
